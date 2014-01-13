@@ -29,6 +29,9 @@ public class AvatarXMLIntensionAction implements IntentionAction {
 
     @Override
     public void invoke(@NotNull Project project, Editor editor, PsiFile psiFile) throws IncorrectOperationException {
+        if(psiFile.isWritable()){
+
+        }
     }
 
     @Override

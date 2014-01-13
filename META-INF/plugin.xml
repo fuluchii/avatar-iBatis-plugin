@@ -48,6 +48,10 @@
       </intentionAction>
       <projectService serviceInterface="me.fuluchii.ibatis.avatar.service.FileCreateService" serviceImplementation="me.fuluchii.ibatis.avatar.service.FileCreateService"/>
       <projectService serviceInterface="me.fuluchii.ibatis.avatar.generator.JavaBeanGenerator" serviceImplementation="me.fuluchii.ibatis.avatar.generator.JavaBeanGenerator"/>
+      <projectService serviceImplementation="me.fuluchii.ibatis.avatar.generator.JavaDtoGenerator"/>
+      <projectService serviceImplementation="me.fuluchii.ibatis.avatar.generator.SqlmapXMLGenerator"/>
+      <projectService serviceImplementation="me.fuluchii.ibatis.avatar.generator.DaoXMLGenerator"/>
+      <projectService serviceImplementation="me.fuluchii.ibatis.avatar.generator.DaoClassGenerator"/>
 
       <!-- Add your extensions here -->
   </extensions>

@@ -19,6 +19,8 @@ public class TableModel {
 
     private String daoName;
 
+    private String daoRName;
+
     private String basePackage;
 
     private Map<String,String> filedMap;
@@ -31,6 +33,14 @@ public class TableModel {
 
     public String getBasePackage() {
         return basePackage;
+    }
+
+    public String getDaoRName() {
+        return this.className+"DAO";
+    }
+
+    public void setDaoRName(String daoRName) {
+        this.daoRName = daoRName;
     }
 
     public void setBasePackage(String basePackage) {

@@ -1,0 +1,8 @@
+<bean id="${DaoName}" parent="parentDao">
+    <property name="proxyInterfaces" value="${DaoClass}"/>
+    <property name="target">
+        <bean parent="ShopHotel.Hotel.daoRealizeTarget">
+            <constructor-arg value="${NAMESPACE}"/>
+        </bean>
+    </property>
+</bean>
