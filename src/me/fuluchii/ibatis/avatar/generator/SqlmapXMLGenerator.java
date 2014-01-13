@@ -54,7 +54,7 @@ public class SqlmapXMLGenerator {
 
             for (String colname : tableModel.getFiledMap().keySet()) {
                 XmlTag result = xmlElementFactory.createTagFromText("<result></result>");
-                result.setAttribute("colomn",colname);
+                result.setAttribute("column",colname);
                 result.setAttribute("property",colname);
                 tag.addSubTag(result,true);
             }
