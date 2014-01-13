@@ -34,7 +34,7 @@
 
   <actions>
     <!-- Add your actions here -->
-      <action id="avatarplugin.AvatarMenuAction" class="me.fuluchii.ibatis.avatar.action.AvatarMenuAction" text="avatarORM"
+      <action id="avatarplugin.AvatarMenuAction" class="me.fuluchii.ibatis.avatar.action.AvatarMenuAction" text="avatar"
               description="avatarORM">
           <add-to-group group-id="FileMenu" anchor="last"/>
           <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl meta N"/>
